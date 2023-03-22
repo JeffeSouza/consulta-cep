@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.css">
+        <title>Teste</title>
+    </head>
+    <body>
+        <div class="site">
+            <div class="site-title">
+                <h1>Localizar Endereço</h1>
+            </div>
+            <div class="site-form">
+                <div class="form-field">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" />
+                    <span class="message"></span>
+                </div>
+                <div class="form-field">
+                    <label for="rua">Rua</label>
+                    <input id="rua" disabled type="text">
+                </div>
+                <div class="form-field">
+                    <label for="bairro">Bairro</label>
+                    <input id="bairro" disabled type="text">
+                </div>
+                <div class="form-field">
+                    <label for="cidade">Cidade</label>
+                    <input id="cidade" disabled type="text">
+                </div>
+                <div class="form-field">
+                    <label for="estado">Estado</label>
+                    <input id="estado" disabled type="text">
+                </div>
+            </div>
+            <div class="site-control">
+                <button id="btn-limpar">Limpar</button>
+                <button id="btn-consultar">Consultar</button>
+            </div>
+        </div>
+    </body>
+    
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="js/index.js"></script>
+</html>
